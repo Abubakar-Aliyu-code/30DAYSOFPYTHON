@@ -1,0 +1,62 @@
+#TYPE OF ERRORS
+
+# 1. SyntaxError
+# Print 'Hello World'
+#The above line of code, 'Hello World' would return a SyntaxError because of 
+#the missing parenthesis print('Hello World)
+
+#2. #NameError
+# print (age)
+#In the above line of code, age was not defined it would thereofre return a NameError when we try to print it.
+
+#3. #IndexError
+#numbers = [1, 2, 3, 4, 5]
+#numbers[5]
+#This code above would return with an error statement like this 'IndexError: list index out of range'.
+#This error is due to attempt made in the second line to call a 5th index (numbers [5]) from the list 
+# which only has for indexes.
+
+#4. ModuleNotFoundError
+#import maths
+# The code above returned a ModuleNotFoundError when ran. This is because the there is no module named maths.
+# The module name should be math instead.
+
+#5. #AttributeError
+#from math import PI
+# # The code above will return an ImportError because there is no a attribute called PI in math module
+#  therefore cannot be imported. The correct statement should be 'from math import pi'
+
+#6. #KeyError
+# users = {'name':'Asab', 'age':250, 'country':'Finland'}
+# users['county']
+
+#The second line of the above code attempted to call a key named county which clearly not a key in the 
+# dictionary therefore would return a KeyError. The correct statement should be users['country']
+
+#7. #TypeError
+# 4 + '3'
+# This will return a TypeError because of an attempt to add to diffent data types (int and string). The correct
+#syntax should be 4 + 3
+
+#8. ImportError
+#import math
+#math.power
+# This would return an AttributeError because there is no attribute called power in the math module. 
+# The correct syntax should be 'math.pow'.
+
+#9. ValueError
+#int('12a'): This attempt to convert '12a' to integer will return ValueError because of the letter 'a' 
+#attached to it.
+
+
+#10. ZeroDivisionError
+#1/0: This will return a ZeroDivisionError because nothing can be divided by zero
+
+#11. IndentationError
+#a = 2
+#if a == 1:
+#print (a)
+
+# This code will return an IndentationError because the print statement was not supposed to be out of 
+# the indented block of the if statement. Any statement that immediately  follows if, for or while loop, 
+# function or classes etc stament should be indented.
