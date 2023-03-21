@@ -22,6 +22,8 @@
 # The module name should be math instead.
 
 #5. #AttributeError
+An attribute error in Python programming language is an exception we get when you call an attribute from an 
+object that does not exist or is not supported.
 #from math import PI
 # # The code above will return an ImportError because there is no a attribute called PI in math module
 #  therefore cannot be imported. The correct statement should be 'from math import pi'
